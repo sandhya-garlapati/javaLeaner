@@ -8,13 +8,13 @@ public class SubstringOfLastThreeCharacters {
 
         String str = "hello i am new to java";
 
-        String substring = str.substring(19,21);
+        String substring = str.substring(19);
 
         System.out.println("substring of last 3 characters is "+substring);
 
         //If we pass the string during run time
 
-        String substring1 = str.substring(str.length()-3,str.length()-1);
+        String substring1 = str.substring(str.length()-3);
 
         System.out.println("substring of last 3 characters is "+substring1);
 
